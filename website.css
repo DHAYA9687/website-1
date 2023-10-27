@@ -1,0 +1,122 @@
+body,h2{
+margin:0px;
+padding:0px;
+}
+.landing{
+    background-image: url('pexels-luke-barky-2899737.jpg');
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    color:azure
+}
+header a{
+    text-decoration:none;
+    color:yellow;
+    background-color: rgb(8, 8, 16);
+    padding-bottom: 10px;
+}
+header{
+    display:flex;
+}
+#logo{
+    flex:2;
+}
+nav{
+    flex:3;
+    display:flex;
+}
+nav a{
+    flex:1;
+}
+button:hover{
+    background-color: rgb(213, 213, 218);
+}
+.main{
+display:flex;
+flex-direction: column;
+height: 20vh;
+justify-content: center;
+padding:40px;
+}
+.tagline1{
+    padding-bottom:10px;
+    font-size: 2.5em;
+    color: rgba(217, 63, 25, 0.897);
+    font-weight: bold;
+}
+.tagline2{
+    padding-bottom:10px;
+}
+.contact-us{
+    padding-bottom:10px;
+}
+.phone{
+    padding-bottom: 10px;
+}
+.order{
+    width: 200px;
+    padding: 10px;
+    border-radius:10px;
+    text-align: center;
+}
+.menu{
+    background: linear-gradient(to right,rgba(82, 78, 78, 0.5),rgba(241, 21, 21, 0.5));
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+    
+}
+#menu,#location{
+    background: linear-gradient(to right,rgba(82, 78, 78, 0.5),rgba(241, 21, 21, 0.5));
+    display:flex;
+    justify-content: center;
+    color:blueviolet;
+    margin:0px;
+}
+th{
+font-weight: bold;
+font-size: 1.5em;
+padding:10px;
+color:red;
+}
+table{
+    width:100%;
+    padding:10px;
+
+}
+.menu tr{
+    display:flex;
+    justify-content:center;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self:left;
+        
+}
+.menu td:nth-child(2){
+    justify-self:right;
+}
+.location{
+    background:linear-gradient(to right,rgba(82, 78, 78, 0.5),rgba(241, 21, 21, 0.5));
+    margin:0px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.location h2{
+    color:rgb(139, 68, 68);
+    margin-bottom: 10px;
+}
+.location div{
+    flex:1;
+    min-width:180;
+}
+.foot{
+    background-color: rgb(54, 49, 49);
+    color:white;
+    margin-left: 0px;
+    padding-left:10px;
+}
+nav i{
+    color: rgb(204, 246, 39);
+}
+
